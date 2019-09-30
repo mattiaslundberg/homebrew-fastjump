@@ -10,8 +10,4 @@ class Fastjump < Formula
   def install
     system "cargo", "install", "--root", prefix, "--path", "."
   end
-
-  test do
-    assert_match "usage", shell_output("#{bin}/fastjump")
-  end
 end
