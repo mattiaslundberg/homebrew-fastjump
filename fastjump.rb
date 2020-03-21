@@ -1,9 +1,9 @@
 class Fastjump < Formula
   desc "Tool for quickly navigating between folders"
   homepage "https://github.com/mattiaslundberg/fastjump"
-  url "https://github.com/mattiaslundberg/fastjump/archive/v0.6.3.tar.gz"
-  sha256 "668e65cf09759c2eb260d6173820db34c3f41c05e0128cb107f9a1803fdc8479"
-  version "v0.6.3"
+  url "https://github.com/mattiaslundberg/fastjump/archive/v0.7.0.tar.gz"
+  sha256 "3fad8858f7205bf1aa886efdeae893bc251d11d3df7bd9d4b4cd1c4d0c1bb9af"
+  version "v0.7.0"
 
   depends_on "rust" => :build
 
